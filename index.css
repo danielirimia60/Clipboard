@@ -1,0 +1,134 @@
+main .main-intro p, header .header-text p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+}
+
+main .main-intro h2, header .header-text h1, header .header-buttons a {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+
+header .header-buttons a {
+  color: #fff;
+  text-decoration: none;
+  padding-block: 0.92em;
+  padding-inline: 2.5em;
+  border-radius: 150px;
+  transition: 300ms ease;
+}
+header .header-buttons a:hover {
+  opacity: 0.8;
+}
+
+header .header-buttons .ios {
+  margin: 1.5em 0em 1.5em 0.5em;
+  background-color: #26baa4;
+  box-shadow: 0px 2.2px 0px 1px #209E8B, 0px 13px 21px -9px rgba(78, 219, 170, 0.7);
+}
+
+header .header-buttons .mac {
+  margin: 1.5em 0.5em 1.5em 0em;
+  background-color: #6173ff;
+  box-shadow: 0px 2.2px 0px 1px #4F5ECF, 0px 13px 21px -9px rgba(1, 3, 255, 0.47);
+}
+
+main .main-intro p, header .header-text p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+}
+
+main .main-intro h2, header .header-text h1, header .header-buttons a {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+
+main .main-intro p, header .header-text p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 500;
+}
+
+main .main-intro h2, header .header-text h1, header .header-buttons a {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+}
+
+main, header {
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/bg-header-desktop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .logo-wrapper {
+  padding: 3em;
+}
+header .logo-wrapper img {
+  width: 100%;
+}
+header .header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .header-text h1 {
+  color: #4c545d;
+  font-size: 2.5rem;
+  padding: 0.3em 0.5em;
+}
+header .header-text p {
+  color: #9fabb2;
+  font-size: 1.17rem;
+  text-align: center;
+  max-width: 65%;
+  padding: 0.5em;
+}
+header .header-buttons {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+}
+main {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+}
+main .main-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+main .main-intro h2 {
+  font-size: 2rem;
+  color: #4c545d;
+  padding: 0.5em;
+}
+main .main-intro p {
+  color: #9fabb2;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 55%;
+  padding: 0.5em;
+}
+main .main-image-text {
+  display: flex;
+}
+
+/*# sourceMappingURL=index.css.map */
