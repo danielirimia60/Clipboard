@@ -1,9 +1,9 @@
-main .main-intro p, header .header-text p {
+.section-2 .s2-benefits .benefit .text-container p, .section-2 .s2-intro p, .section-1 .s1-text p, main .main-image-text .main-text-container .text-container p, main .main-intro p, header .header-text p {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 500;
 }
 
-main .main-intro h2, header .header-text h1, header .header-buttons a {
+.section-2 .s2-benefits .benefit .text-container h3, .section-2 .s2-intro h2, .section-1 .s1-text h2, main .main-image-text .main-text-container .text-container h3, main .main-intro h2, header .header-text h1, header .header-buttons a {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 600;
 }
@@ -32,27 +32,27 @@ header .header-buttons .mac {
   box-shadow: 0px 2.2px 0px 1px #4F5ECF, 0px 13px 21px -9px rgba(1, 3, 255, 0.47);
 }
 
-main .main-intro p, header .header-text p {
+.section-2 .s2-benefits .benefit .text-container p, .section-2 .s2-intro p, .section-1 .s1-text p, main .main-image-text .main-text-container .text-container p, main .main-intro p, header .header-text p {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 500;
 }
 
-main .main-intro h2, header .header-text h1, header .header-buttons a {
+.section-2 .s2-benefits .benefit .text-container h3, .section-2 .s2-intro h2, .section-1 .s1-text h2, main .main-image-text .main-text-container .text-container h3, main .main-intro h2, header .header-text h1, header .header-buttons a {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 600;
 }
 
-main .main-intro p, header .header-text p {
+.section-2 .s2-benefits .benefit .text-container p, .section-2 .s2-intro p, .section-1 .s1-text p, main .main-image-text .main-text-container .text-container p, main .main-intro p, header .header-text p {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 500;
 }
 
-main .main-intro h2, header .header-text h1, header .header-buttons a {
+.section-2 .s2-benefits .benefit .text-container h3, .section-2 .s2-intro h2, .section-1 .s1-text h2, main .main-image-text .main-text-container .text-container h3, main .main-intro h2, header .header-text h1, header .header-buttons a {
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 600;
 }
 
-main, header {
+.sponsors, .section-2, .section-1, main, header {
   margin: 0 auto;
 }
 
@@ -68,6 +68,7 @@ html {
 }
 
 header {
+  padding-block: 5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,6 +99,7 @@ header .header-text p {
   text-align: center;
   max-width: 65%;
   padding: 0.5em;
+  line-height: 1.8rem;
 }
 header .header-buttons {
   margin-top: 1em;
@@ -105,9 +107,11 @@ header .header-buttons {
   gap: 1em;
 }
 main {
-  margin-top: 8%;
+  margin-top: 1%;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
+  max-width: 1444px;
 }
 main .main-intro {
   display: flex;
@@ -126,9 +130,152 @@ main .main-intro p {
   text-align: center;
   max-width: 55%;
   padding: 0.5em;
+  line-height: 1.8rem;
 }
 main .main-image-text {
+  max-width: 1440px;
   display: flex;
+}
+main .main-image-text .main-img-container {
+  position: relative;
+  right: 1.5em;
+  width: 60%;
+}
+main .main-image-text .main-img-container img {
+  width: 100%;
+}
+main .main-image-text .main-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+main .main-image-text .main-text-container .text-container {
+  max-width: 65%;
+  padding-block: 1em;
+  padding-left: 5em;
+}
+main .main-image-text .main-text-container .text-container h3 {
+  color: #4c545d;
+  font-size: 1.4em;
+  padding-block: 0.5em;
+}
+main .main-image-text .main-text-container .text-container p {
+  color: #9fabb2;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  max-width: 1444px;
+}
+.section-1 .s1-text {
+  padding-block: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-1 .s1-text h2 {
+  font-size: 2rem;
+  color: #4c545d;
+  padding: 0.5em;
+}
+.section-1 .s1-text p {
+  color: #9fabb2;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 75%;
+  padding: 0.5em;
+  line-height: 1.8rem;
+}
+.section-1 .s1-img {
+  width: 65%;
+  margin-block: 2em;
+}
+.section-1 .s1-img img {
+  width: 100%;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 2em;
+  max-width: 1444px;
+}
+.section-2 .s2-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.section-2 .s2-intro h2 {
+  font-size: 2rem;
+  color: #4c545d;
+  padding: 0.5em;
+}
+.section-2 .s2-intro p {
+  color: #9fabb2;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.8rem;
+}
+.section-2 .s2-benefits {
+  display: flex;
+  justify-content: center;
+  margin-block: 2em;
+}
+.section-2 .s2-benefits .benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 27%;
+}
+.section-2 .s2-benefits .benefit .img-container {
+  padding: 1em;
+}
+.section-2 .s2-benefits .benefit .img-container img {
+  width: 100%;
+}
+.section-2 .s2-benefits .benefit .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-2 .s2-benefits .benefit .text-container h3 {
+  font-size: 1.4rem;
+  color: #4c545d;
+  padding: 0.5em;
+}
+.section-2 .s2-benefits .benefit .text-container p {
+  color: #9fabb2;
+  font-size: 0.95rem;
+  text-align: center;
+  line-height: 1.8rem;
+  width: 93%;
+}
+.section-2 .s2-benefits .benefit .push-down {
+  position: relative;
+  top: 0.55rem;
+  padding-bottom: 0.2em;
+}
+
+.sponsors {
+  display: flex;
+  margin-block: 8em;
+  max-width: 1444px;
+  justify-content: center;
+  gap: 5em;
+}
+.sponsors .img-container {
+  padding: 0.5em;
+}
+.sponsors .img-container img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */
