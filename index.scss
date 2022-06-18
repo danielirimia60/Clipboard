@@ -277,12 +277,60 @@ main {
     max-width: 1444px;
     justify-content: center;
     gap: 5em;
+    position: relative;
 
     .img-container {
         padding: .5em;
 
         img {
             width: 100%;
+        }
+    }
+}
+
+.section-3 {
+    @extend %default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 2em;
+
+    .s3-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: 2rem;
+            @extend %bai-600;
+            color: $dark-grayish-blue;
+            padding: .5em;
+        }
+
+        p {
+            @extend %bai-500;
+            color: $grayish-blue;
+            font-size: 1.1rem;
+            text-align: center;
+            line-height: 1.8rem;
+            max-width: 65%;
+        }
+    }
+
+    .s3-buttons {
+        margin-top: 1em;
+        display: flex;
+        gap: 1em;
+
+        a {
+            @extend %button;
+        }
+
+        .ios {
+            @extend %ios;
+        }
+        .mac {
+            @extend %mac;
         }
     }
 }
